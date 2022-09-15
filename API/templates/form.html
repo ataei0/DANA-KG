@@ -1,0 +1,26 @@
+﻿<!DOCTYPE html>
+<html>
+   <head>
+      <title>DANA-KG</title>
+   </head>
+<body> 
+  <center> 
+     <label>
+       <b> DANA-KG </b>
+      </label>
+  </center>
+  <br/>
+  <br/>
+  <br/>
+  <form action="{{ url_for("my_form_post")}}" method="post">
+  <center>
+     <label for="word"> کلمه مورد نظر را وارد کنید :</label>
+     <input type="text" id="word" name="word" placeholder="word">
+     <button type="submit">Search</button>
+     <br/>
+     <br/>
+     <label> برای کلمات چند بخشی از "_" استفاده کنید </label>
+  </center>
+  </form>  
+</body>
+</html>
